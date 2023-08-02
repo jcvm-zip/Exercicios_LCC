@@ -1,0 +1,144 @@
+User stories
+
+Nos métodos ágeis, uma maneira bastante utilizada para descrever os requisitos são as user stories (estórias de usuário).
+Uma user story é uma descrição concisa de um requisito do ponto de vista do usuário.
+Ela deve ser simples o bastante para que possa ser escrita em um pequeno cartão.
+A user story não descreve tudo que há de ser feito, mas serve como lembrete do que deverá ser feito.
+
+User Stories - Cartão
+O cartão define três aspectos da user story:
+- quem? → interessado;
+- o quê? → necessidade;
+- por quê? → resultado.
+
+User Stories - Cartão
+A user story também pode conter uma razão ou justificativa, como:
+"Eu, enquanto professor, desejo postar aulas com vídeo e outros materiais didáticos para que meus estudantes surdos possam estudar em casa."
+
+User Stories - Cartão
+- A escrita da story deve ser focada na solução e não no problema.
+- A story deve ser sempre do ponto de vista do usuário.
+- O gerente de produto (ou cliente) deve estar atento a quem de fato é o usuário da funcionalidade e qual benefício este obterá.
+
+User Stories - Cartão
+- As estórias de usuário são colocadas no Product Backlog (se você usar Scrum).
+- Deve-se evitar stories negativas, pois é difícil implementar o que o sistema não deve fazer.
+
+User Stories - Cartão
+"Eu, enquanto usuário, não quero que o sistema grave e transmita minhas informações a servidores externos."
+
+É melhor reescrevê-la de uma maneira positiva:
+
+"Eu, enquanto usuário, desejo controlar a informação que é gravada e transmitida a servidores externos para que eu garanta que minha informação pessoal não é compartilhada."
+
+User Stories - Cartão
+Segundo Mike Cohn, são boas práticas para escrita de user stories:
+- escrever primeiro estórias ligadas aos objetivos dos usuários;
+- escrever em voz ativa;
+- o cliente deve escrever a estória (sob supervisão, obviamente);
+- não numerar os cartões;
+- cartões são apenas um lembrete do que será discutido;
+- dividir estórias grandes ou complexas.
+
+User Stories - INVEST
+Bill Wake, famoso autor sobre métodos ágeis, criou o acrônimo INVEST para criação de boas user stories:
+- I - independente;
+- N - negociável;
+- V - valiosa;
+- E - estimável;
+- S - pequena (small);
+- T - testável.
+
+User Stories - Independente
+As user stories devem ser independentes entre si.
+Se uma story de alta prioridade depende de uma estória de baixa prioridade, então inverte-se a lógica de priorização, pois a estória menos valiosa deverá ser implementada primeiro.
+
+User Stories - Independente
+Outro problema da dependência entre user stories é em relação a estimativas. Tenha-se as seguintes stories:
+- Eu, enquanto Cliente, desejo pagar pela compra usando um cartão Visa.
+- Eu, enquanto Cliente, desejo pagar pela compra usando um cartão MasterCard.
+- Eu, enquanto Cliente, desejo pagar pela compra usando um cartão American Express.
+
+As três stories são bastante similares e possuem complexidades quase idênticas.
+A primeira será implementada em, talvez, 3 dias.
+As demais, em 1 dia cada. 
+As estimativas para a segunda e terceira stories não corresponderão à realidade.
+
+User Stories - Independente
+Baseado em uma sugestão de Mike Cohn para problema similar, tem-se o seguinte reagrupamento das user stories:
+- Eu, enquanto Cliente, desejo pagar pela compra usando uma bandeira de cartão.
+- Eu, enquanto Cliente, desejo pagar pela compra usando outras duas bandeiras de cartão.
+
+User Stories - Negociável
+O cartão da user story não deve detalhar o requisito por completo.
+Ele serve apenas como um lembrete gentil do que deverá ser feito.
+No planejamento da iteração e em sua execução que devem ser discutidos os detalhes.
+
+User Stories - Negociável
+Os cartões devem possuir apenas a user story e, no máximo, um par de notas que servirão de lembrete para as discussões como no exemplo abaixo:
+- Story: Eu, enquanto Cliente, desejo pagar pela compra usando cartão de crédito.
+- Nota: serão aceitos cartão da bandeira Discover?
+- Nota para UI: não colocar campo "bandeira", pois pode ser descoberto através dos primeiros números do cartão.
+
+User Stories - Valiosa
+As user story devem ter valor para os usuários ou clientes.
+Deve-se lembrar, que, do ponto de vista ágil e moderno, o importante é o produto a ser desenvolvido e o valor que ele agrega aos usuários e clientes.
+
+User Stories - Estimável
+Estimar uma estória de usuário é reconhecer a complexidade da estória. Há três fontes principais para dificuldade, ou impossibilidade, de se estimar uma estória:
+- os desenvolvedores não possuem conhecimento do domínio;
+- os desenvolvedores não possuem conhecimento técnico;
+- a story é muito grande.
+
+User Stories - Estimável
+No caso de falta de conhecimento do domínio, deve-se conversar com os criadores da estória.
+No caso de falta de conhecimento técnico, pode-se realizar um spike, onde aos desenvolvedores é dado uma janela de tempo para conhecerem sobre a tecnologia.
+Se a story for muito grande, então é necessário dividi-la.
+
+User Stories - Pequena (Small)
+O tamanho de uma story de usuário é um problema.
+A story deve ser, a princípio, pequena.
+Entretanto, se muito pequena, pode levar a uma quantidade muito grande de requisitos.
+
+User Stories - Pequena (Small)
+Uma story grande é chamada de épico. Os épicos são geralmente em dois tipos:
+- story composta;
+- story complexa.
+
+User Stories - Pequena (Small)
+A story composta é um epic (épico) que agrega diversas estórias de usuário. Por exemplo:
+
+"Eu, enquanto usuário, desejo autenticar-me no sistema através de credenciais externas."
+
+Pode ser quebrado em:
+- "Eu, enquanto usuário, desejo autenticar-me no sistema através das minhas credenciais no Google."
+- "Eu, enquanto usuário, desejo autenticar-me no sistema através das minhas credenciais no Facebook."
+- "Eu, enquanto usuário, desejo autenticar-me no sistema através das minhas credenciais na Apple."
+- "Eu, enquanto usuário, desejo autenticar-me no sistema através das minhas credenciais no Twitter."
+
+User Stories - Pequena (Small)
+Já a story complexa não pode ser quebrada em outras estórias menores. Por exemplo:
+
+"Eu, enquanto usuário, desejo enviar um e-mail com 30MB de tamanho e que chegue em no máximo 2 segundos no destinatário."
+
+User Stories - Testável
+A story deve ser testável. Na sua revisão, o time ágil (não somente testadores) deve ser capaz de conceber um teste de aceitação.
+Além disso, a história deve ser passível de automação de testes.
+
+User Stories - Testável
+O time ágil não necessita implementar a automação de teste no momento da escrita da user story, mas esta deve ser concebida de modo a ser passível de automação.
+A automação de testes permite que testes sejam executados a cada nova build do software, permitindo assim que o time tenha um feedback rápido e diminuindo a quantidade de defeitos encontrados na sprint review.
+
+User Stories - O que não é uma story
+- Épicos;
+- Temas de Investimento;
+- NFR's;
+- Ideias;
+- Riscos;
+- Ações de Suporte.
+
+User Stories - Referência
+MOUNTAINEER, Mike. User stories applied: for agile software development. Addison-Wesley, 2004.
+
+Referência
+MOUNTAINEER, Mike. User stories applied: for agile software development. Addison-Wesley, 2004.

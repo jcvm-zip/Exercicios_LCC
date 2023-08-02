@@ -1,0 +1,13 @@
+Conceitos.txt
+
+Polimorfismo:
+Polimorfismo é a capacidade de uma classe (ou objeto) de ser tratada como um objeto de outra classe, permitindo que diferentes classes compartilhem um mesmo nome de método, mas que cada uma delas possa implementar esse método de maneira específica. Em outras palavras, o polimorfismo permite que um mesmo método seja chamado para diferentes tipos de objetos, e o comportamento do método varia de acordo com o tipo do objeto em tempo de execução. Isso simplifica o código, tornando-o mais flexível e fácil de estender.
+
+Encapsulamento:
+O encapsulamento é um conceito que visa ocultar os detalhes internos de uma classe (ou objeto) e expor apenas a interface necessária para que outros objetos possam interagir com ela. Isso é alcançado definindo propriedades e métodos como públicos, privados ou protegidos. Propriedades privadas só podem ser acessadas dentro da própria classe, enquanto métodos públicos fornecem a interface pública para que outros objetos possam interagir com a classe. O encapsulamento ajuda a garantir a segurança, restringindo o acesso a informações sensíveis e impedindo que o código externo afete o estado interno da classe diretamente.
+
+Herança:
+A herança é um mecanismo que permite que uma classe (chamada de classe derivada ou subclasse) herde características (propriedades e métodos) de outra classe (chamada de classe base ou superclasse). A subclasse pode estender ou modificar o comportamento da superclasse, e assim, reutilizar o código existente. Esse conceito é útil para criar hierarquias de classes, onde uma classe mais geral (superclasse) pode ser estendida por classes mais específicas (subclasses). A herança permite uma estrutura mais organizada, facilitando a manutenção do código e o reaproveitamento de funcionalidades comuns.
+
+Abstração: 
+A abstração, que se refere à capacidade de criar modelos conceituais de objetos do mundo real no código. A abstração permite que os objetos sejam representados por suas características e comportamentos essenciais, sem levar em consideração detalhes irrelevantes. Juntos, esses quatro pilares fornecem um paradigma poderoso para a criação de software eficiente, modular e de fácil manutenção.

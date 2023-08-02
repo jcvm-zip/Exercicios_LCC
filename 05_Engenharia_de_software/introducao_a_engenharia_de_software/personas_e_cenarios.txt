@@ -1,0 +1,142 @@
+Introdução
+
+Algumas experiências bem sucedidas, como Facebook, criaram o mito que para se ter sucesso basta ter inspiração.
+construídos somente com base na inspiração tendem fracassar miseravelmente.
+- A inspiração, nestes casos, não atende às reais necessidades do usuário.
+- E mesmo em casos onde softwares feitos "apenas" com inspiração são bem sucedidos, é necessário entender como ele é utilizado e quais suas lacunas.
+
+   Em termos materiais, há três fatores comuns que impulsionam a criação de produtos de software:
+   - necessidades de negócio e de consumo não atendidas pelos produtos atuais;
+   - insatisfação com os produtos de software atuais;
+   - mudanças na tecnologia.
+
+   Diferentemente dos projetos de software, os produtos de software não são resultado dos requisitos de um cliente específico, mas é interessante conhecer seus usuários e clientes potenciais.
+   Há diversas técnicas formais para estudo desses usuários, algumas caras e até mesmo infactíveis.
+   Outra abordagem é utilizar maneiras mais informais, porém que podem trazer grande valor às etapas iniciais de desenvolvimento do produto de software.
+   O objetivo é, a partir do conhecimento sobre estes usuários, elaborar funcionalidades e restrições.
+
+Funcionalidades e restrições
+
+   Funcionalidades são o que o usuário pode fazer no software.
+   Na literatura as funcionalidades também recebem o nome de requisitos funcionais.
+   O usuário postar uma foto é um exemplo de funcionalidade.
+
+   Restrições são limitações impostas sobre o software.
+   Na literatura também são conhecidas como requisitos não-funcionais.
+   O software ter de rodar nos sistemas operacionais Linux, Windows e MacOS é um exemplo de restrição.
+
+Personas
+
+   Como dito anteriormente, o primeiro ponto é saber quem vai usar o produto de software.
+   Muitas vezes conhece-se alguma pessoa que possui o perfil de usuário, porém nem todos da equipe de desenvolvimento podem ter essa mesma noção.
+   Por isso, é interessante a criação de personas.
+
+   "Persona é uma representação dos usuários mais comuns, baseada em uma parcela de tarefas críticas." (Tomlin, 2018; tradução nossa)
+
+   Personas são "usuários imaginários", como personagens de um livro de ficção inspirados em pessoas reais.
+   A persona é utilizada para mapear as necessidades e como as pessoas utilizam a aplicação no seu dia-a-dia.
+   Por exemplo, se você está desenvolvendo um software para escritórios de advocacia, um advogado, um recepcionista, um assistente legal são bons exemplos de personas a serem criados.
+
+   Há quatro razões principais para o uso de personas:
+   - adicionar contexto aos dados de UX comportamental;
+   - permitir o projeto centrado no usuário;
+   - ajudar no recrutamento para teste de usabilidade;
+   - diminuir o scope creep.
+
+   Com o uso de personas, pode-se analisar os dados de UX comportamental para definir não apenas como cada persona utiliza a aplicação, mas qual a relevância desta persona no uso da aplicação.
+
+   Tenha-se um caso onde dois projetos de interface completamente diferentes estão em disputa.
+   A partir disto, pode-se escolher o projeto de interface baseado em resultados mais sólidos.
+   O uso de personas contextualiza e agrupa usuários, facilitando aos tomadores de decisão verem o que fazer.
+
+   As personas também servem para delinear o escopo do projeto.
+   Elas servem para lembrar a todos os envolvidos quais são os pontos mais importantes.
+   Não apenas reduz o chamado scope creep, mas permite traçar o caminho para a construção de um produto viável mínimo (MVP).
+
+   Tomlin coloca alguns pontos importantes a serem levados em conta para criação de personas:
+   - são baseadas em pesquisas de campo;
+   - identificam padrões comuns de comportamento;
+   - focam no agora e não no futuro potencial das coisas;
+   - incluem foto, nome e estória breve;
+   - descrevem um problema ou tarefa que uma pessoa está tentando resolver;
+   - boas personas incluem ambientes típicos e/ou dispositivos utilizados;
+   - incluem a familiaridade da pessoa com o domínio do problema;
+   - definem duas ou três tarefas principais que a persona precisa realizar.
+
+   Tomlin coloca como atributos comuns de uma persona:
+   - foto;
+   - tarefas críticas;
+   - cenário e background;
+   - dispositivos;
+   - expertise do domínio;
+   - ambiente.
+
+   Para criação de personas, Tomlin dá bastante ênfase à aquisição de informações.
+   Ele sistematiza a investigação contextual de conduta.
+
+Investigação contextual de conduta
+
+   "Investigação contextual de conduta é um método de pesquisa etnográfica para projeto centrado no usuário em que o pesquisador encontra os usuário no local e observa como eles interagem com sistemas no seu próprio ambiente." (Tomlin, 2018; tradução nossa)
+
+   São etapas da investigação contextual de conduta:
+   1. preparação;
+   2. encontrar as pessoas a serem observadas;
+   3. sessão de observação;
+   4. consolidação e análise dos dados coletados.
+
+   A preparação envolve decidir:
+   - quem será observado;
+   - onde será observado;
+   - o que será observado;
+   - quais perguntas serão feitas.
+
+   Para encontrar pessoas a serem observadas, em alguns casos, basta ir às ruas.
+   Em outros casos, como juizes, empresários, médicos e outros profissionais que não estão comumente em público, mas em ambientes fechados, é necessário um esforço adicional.
+   Pode-se utilizar contatos próprios e/ou recrutadores.
+
+   Para convencer as pessoas a participar do estudo, deve-se evitar palavras como:
+   - pesquisa;
+   - observação;
+   - teste;
+   - estudo.
+   No lugar, deve-se dizer que busca-se "conhecer um pouco mais" o que a pessoa faz.
+
+   Deve-se ter muito cuidado com a privacidade e a anonimicidade do estudo.
+   As pessoas que confiam que o que for dito ou observado durante o estudo não será compartilhado tendem a expor mais suas ideias.
+
+   Tomlin sugere que a equipe de pesquisa siga alguns pontos:
+   - ser sempre cordial com os observados;
+   - calma ao ouvir/observar;
+   - prestar atenção até mesmo em expressões não verbais;
+   - perguntar o porquê das respostas ou ações;
+   - anotar ao máximo.
+
+   A consolidação dos dados deve ser feita de maneira imediata para que não se percam detalhes.
+   Quanto mais distante a consolidação e análise de dados é feita, mais chances da equipe de pesquisa esquecer pontos que podem ser muito importantes.
+
+Cenários
+
+   Sommerville recomenda o uso de cenários para descobrir as funcionalidades.
+   O cenário é a narrativa que descreve uma dada situação em que um usuário (uma persona) está interagindo com o software.
+   Deve descrever o problema do usuário e como ele fará para resolvê-lo.
+   Não é necessário descrever o sistema nos mínimos detalhes.
+
+   Um cenário deve conter:
+   - uma breve afirmação sobre seu objetivo geral;
+   - referências à persona envolvida e suas motivações;
+   - informação sobre o que está envolvido na atividade;
+   - se apropriado, explicação dos problemas que não poderão ser resolvidos com o sistema e de como estes problemas poderão ser resolvidos.
+
+   "José está ensinando o básico de hardware para a turma e nela está um estudante surdo. José leva a turma para o laboratório de manutenção e demonstra as peças, uma a uma, com ajuda do intérprete de língua de sinais. Entretanto, o estudante surdo tem dificuldade em assimilar os novos sinais para as peças. Por isso, José precisa que o estudante tenha material para estudar em casa e fixar os novos termos.
+   Então, José, com auxílio do intérprete, cria um vídeo mostrando as peças do computador e seus nomes em português e em LIBRAS. José autentica-se no Portal Mão Amiga e vai à tela de criar aula. Preenche os dados da aula e sobe o vídeo, além de outros materiais didáticos de apoio."
+
+   A escrita de um cenário deve começar a partir de uma ou mais personas criadas.
+   Os cenários surgem a partir da imaginação sobre o que esta persona pode realizar com o software.
+   A escrita de cenários não possui uma fórmula exata e vai depender do produto de software e seus objetivos.
+   Alguns cenários falarão mais de mecanismos e outros menos. Porém, o objetivo é que sejam claros o bastante para que até uma pessoa leiga entenda.
+   Não são necessários cenários para todos os possíveis usos do software. Eles devem servir como auxílio e não como um ponto de lentidão.
+
+Referências
+
+   Tomlin, W. Craig. UX Optimization: Combining Behavioral UX and Usability Testing Data to Optimize Websites. 1ed. 2018. APress.
+   Sommerville, Ian. Engineering Software Products: An Introduction to Modern Software Engineering. 1ed. 2021. Pearson Education.

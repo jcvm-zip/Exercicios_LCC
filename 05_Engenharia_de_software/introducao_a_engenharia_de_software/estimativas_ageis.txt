@@ -1,0 +1,27 @@
+Estimativas ágeis
+
+Introdução
+- O desenvolvimento de software sempre envolve a pergunta: "Quando será terminado?"
+- Estimar é prever o futuro, mas raramente é preciso.
+- Apesar da imprecisão, a estimativa é essencial e deve ser aprimorada continuamente.
+- Métodos ágeis também lidam com estimativas, enfatizando conversas e flexibilidade.
+
+Story Points
+- Estimar é responsabilidade da equipe de desenvolvimento.
+- Estimativas coletivas são mais precisas do que individuais ou de equipes externas.
+- Desafios nas estimativas incluem inexperiência, pressão externa e influência das estimativas anteriores.
+- Story Points são uma medida relativa de complexidade ou esforço.
+- A equipe deve garantir que as estimativas mantenham proporções claras entre as user stories.
+
+Planning Poker™
+- Técnica usada para estimar user stories.
+- Cada desenvolvedor usa um baralho de cartas com valores de story points.
+- As user stories são lidas e todos escolhem uma carta.
+- Em caso de falta de consenso, discute-se até chegar a um acordo.
+- O objetivo é chegar a estimativas claras e estáveis.
+
+Velocidade
+- Velocidade é a quantidade de story points completados em uma iteração.
+- Permite prever entregas futuras com base no desempenho passado da equipe.
+- Fatores que afetam a velocidade incluem experiência, tecnologias, coesão da equipe, entre outros.
+- Velocidade não leva em conta horas extras e depende de boas estimativas e user stories bem escritas e independentes.

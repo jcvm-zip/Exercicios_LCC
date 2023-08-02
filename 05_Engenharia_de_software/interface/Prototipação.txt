@@ -1,0 +1,57 @@
+Prototipação
+
+Introdução
+Produtos inovadores trazem consigo um grande risco, pois estão em fronteiras pouco exploradas. Surge a necessidade de provar que a ideia por trás desses produtos realmente funciona.
+
+O uso da técnica de prototipação permite que as empresas testem rapidamente suas ideias. Uma ideia testada traz mais segurança para investidores e até mesmo para os funcionários da empresa. Por parte dos funcionários, se o protótipo garante o produto, isto pode ser um indicativo de estabilidade (por algum tempo) para os envolvidos na construção do produto.
+
+Os protótipos podem ser classificados em 2 ou mais tipos (a depender do autor). Os mais comuns são os descartáveis e os evolucionários.
+
+Os protótipos descartáveis são utilizados para testar ideias dentro do processo. Usos comuns dos protótipos descartáveis envolvem a criação de interfaces e o teste de eficiência de algoritmos em determinadas situações. Como o nome já diz, estes protótipos são descartados assim que terminam os testes.
+
+Os protótipos evolucionários são utilizados mais largamente nas áreas de pesquisa e desenvolvimento. Na indústria automobilística e aeroespacial, é comum a criação de protótipos de novos carros ou aeronaves para testar elementos como segurança, eficiência energética, etc. Para o desenvolvimento de software, o uso de protótipos evolucionários é utilizado para apresentação a investidores ou com intuito científico. Diferentemente dos protótipos descartáveis, os protótipos evolucionários são mais robustos e bastante mais caros. Eles são construídos por etapas, agregando a cada iteração mais elementos.
+
+Prototipação no design de interface
+Dificilmente o desenho ideal será atingido em um primeiro momento. O projeto de interface tende a mudar diversas vezes até que se atinja o resultado ideal. A interação com seres humanos não é algo tão previsível. O uso de protótipos descartáveis hoje é comum na indústria de desenvolvimento de software.
+
+A prototipação pode ser incluída em diversas fases do ciclo de desenvolvimento, especialmente nas fases iniciais, quando há maior incerteza. Para cada user story a ser implementada, deve-se especificar melhor seu fluxo de execução.
+
+O fluxo de execução pode ser estabelecido por diferentes ferramentas. Algumas destas são: o diagrama de atividades, a análise de tarefas e os storyboards. Os dois primeiros são os mais próximos dos desenvolvedores de software, enquanto o último é mais utilizado por artistas visuais.
+
+Análise de tarefas
+A análise de tarefas é uma "prática abrangente de aprender como os usuários trabalham ... para alcançar seus objetivos" (Rosala, 2020, trad. nossa). Tarefa é uma ação observável que possui um início e um fim definidos.
+
+Não se deve confundir uma tarefa com o objetivo. Se o objetivo é cadastrar-se em um site, preencher o formulário de cadastro é uma atividade para atingir esse objetivo e não um objetivo em si.
+
+Tenha-se a user story:
+"Eu, enquanto professor, desejo publicar aulas adaptadas para que os alunos surdos e não-surdos possam rever o conteúdo."
+
+A user story em si é um objetivo.
+
+Apenas a user story não diz como este objetivo será realizado. É necessário decompô-la em tarefas intermediárias a serem realizadas.
+
+Para a user story apresentada, é um exemplo de análise de tarefas:
+1. Autenticar-se na plataforma.
+2. Ir à página de adicionar aula.
+3. Preencher o formulário com título da aula, disciplina, comentário.
+4. Subir vídeo da aula e material de apoio.
+5. Pressionar botão confirmar.
+
+A partir das tarefas levantadas é possível já ter noção de alguns elementos de interface que estarão presentes:
+- botão para ir à página de adicionar aula (possivelmente estará presente em um menu);
+- uma página específica para adicionar aula;
+- um formulário com os campos título da aula, disciplina e uma caixa de texto de comentário;
+- campos para subir vídeo da aula e material de apoio;
+- botão para confirmação de publicação da aula.
+
+Protótipos em papel
+Os protótipos descartáveis mais simples são os protótipos em papel. Os protótipos em papel simulam não apenas o fluxo, mas definem elementos de interface.
+
+Protótipos digitais
+Outro tipo de protótipo descartável são os protótipos digitais. Este tipo de protótipo é mais caro e exige mais tempo para sua criação em relação aos protótipos em papel. Os protótipos digitais são protótipos que podem ser feitos utilizando ferramentas gráficas como Photoshop, Gimp, Sketchup ou Figma. Seu objetivo é permitir que os envolvidos comecem a visualizar a disposição dos elementos de interface na tela.
+
+É possível observar um exemplo de protótipo digital para um sistema de transporte em: https://1qcbl7.axshare.com/\#p=home\_screen
+
+Referências
+- Dix, Alan et al. Human-Computer Interaction. 3ed. Pearson Education. 2004.
+- Rosala, Maria. Task Analysis: Support Users in Achieving Their Goals. 2020. https://www.nngroup.com/articles/task-analysis/

@@ -1,0 +1,90 @@
+Técnicas e heurísticas para design de interfaces
+
+Design de interfaces
+- A criação de interfaces para softwares ganha mais importância após a grande expansão do acesso à internet, aos smartphones e computadores.
+- Os softwares, antes utilizados apenas por um pequeno grupo de trabalhadores da academia ou de grandes empresas, agora fazem parte da vida da quase totalidade da população dos países mais desenvolvidos.
+
+Design de interfaces
+- Desenvolver interfaces para amplos grupos de pessoas com diferentes culturas, experiências e graus técnicos no uso de computadores torna o desenvolvimento de software mais difícil.
+- Pode-se mitigar esse problema através do uso de técnicas e heurísticas já largamente utilizadas na indústria.
+
+Heurística
+- Heurística: uma regra que pode ajudar a resolver um dado problema tomando como base o conhecimento sobre a natureza do problema.
+
+Heurísticas de Nielsen
+- Em 1990, dois pesquisadores, Jakob Nielsen e Rolf Molich propuseram 10 heurísticas para auxiliar a criação em interfaces.
+- As heurísticas de Nielsen não são regras extritas, mas parâmetros a serem observados para construção e avaliação de interfaces.
+
+Heurísticas de Nielsen
+São 10 as heurísticas de Nielsen:
+1. Visibilidade do estado do sistema;
+2. Compatibilidade entre o sistema e o mundo real;
+3. Controle e liberdade para o usuário;
+4. Consistência e padronização;
+5. Prevenção de erros;
+6. Reconhecimento em vez de memorização;
+7. Eficiência e flexibilidade de uso;
+8. Estética e design minimalista;
+9. Ajude os usuários a reconhecerem, diagnosticarem e recuperarem-se de erros;
+10. Ajuda e documentação.
+
+Visibilidade do estado do sistema
+- É quase mandatório que o usuário esteja sempre a par do estado do sistema.
+- Isso pode ser garantido por elementos de interface pequenos, mas que auxiliam bastante o usuário.
+- Exemplos: mudança do símbolo de play para pause em aplicativos de músicas, tempo estimado para o fim de um download, barra indicando quanto do espaço de armazenamento foi utilizado, a seleção da faixa que está tocando.
+
+Visibilidade do estado do sistema
+- Barra de progresso para indicar o quanto de um download ou instalação de um software foi feito até então.
+[Image: download_estimated_time.png]
+
+Visibilidade do estado do sistema
+- Ampulheta ou roda para indicar que uma ação está sendo realizada.
+[Image: spinning_wheel.png]
+
+Compatibilidade entre o sistema e o mundo real
+- O sistema deve fornecer uma linguagem familiar ao contexto do usuário.
+- Exemplo: utilizar ícones que possibilitem ao usuário ter uma noção intuitiva do que um botão faz.
+
+Controle e liberdade para o usuário
+- Trata da capacidade do usuário poder desfazer uma ação ou não ser forçado a seguir um único caminho.
+- Exemplos: lixeira presente na maioria dos SOs modernos, lixeira presente nos sistemas de e-mails, função desfazer (Ctrl+z).
+
+Controle e liberdade para o usuário
+- Outro exemplo é poder explorar um site de e-commerce sem obrigatoriamente ter de fazer login, como o site da Amazon, que permite que o usuário remova itens do carrinho durante o checkout.
+
+Controle e liberdade para o usuário
+- Em alguns casos, será interessante restringir a liberdade do usuário, como adicionar um wizard para instalação e configuração de impressora.
+
+Consistência e padronização
+- O sistema deve possuir uma padronização léxica e gráfica.
+- Apenas um ícone ou um termo devem indicar uma funcionalidade.
+- Um ícone ou um termo devem indicar apenas uma funcionalidade.
+- A disposição e o alinhamento de ícones, botões e textos também devem ser consistentes.
+
+Prevenção de erros
+- A interface deve ser projetada para que o usuário cometa o menor número de erros possíveis.
+- Exemplos: sistemas que sugerem uma busca com ortografia parecida ou de sinônimos da que foi buscada e a inserção de máscaras, dicas marginais e caixas de confirmação.
+
+Reconhecimento ao invés de memorização
+- Objetos, ações e opções devem ser visíveis ao usuário.
+- O usuário não deve ter de lembrar da informação de uma parte do sistema em outra. Este deve estar sempre visível quando necessária.
+- Sistemas que dependem de códigos são um mau exemplo.
+
+Flexibilidade e eficiência de uso
+- A interface deve ser visual para os usuários mais inexperientes e possuir "aceleradores" para os usuários mais avançados.
+- Exemplos de "aceleradores": teclas de atalho, boas opções padrão em formulários, sistemas de recomendação.
+
+Estética e design minimalistas
+- Tanto a distribuição das cores quanto das informações não deve atrapalhar o usuário.
+- Não se deve inserir funcionalidades ou elementos de interface que não serão utilizados.
+
+Recuperação de erros
+- As mensagens de erro devem ser claras e de fácil entendimento para o usuário.
+
+Ajuda e documentação
+- É importante que haja uma seção dedicada à ajuda e à documentação.
+- As seções de ajuda e documentação devem ser bem arquitetadas e com linguagem simples e direta.
+
+Referências
+- Dix, Alan et al. Human-Computer Interaction. 3ed. Pearson Education. 2004.
+- Editora Alea. Nielsen's Heuristics: 10 Usability Principles to Improve UI Design. https://aelaschool.com/en/interactiondesign/10-usability-heuristics-ui-design/. 2022.

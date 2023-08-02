@@ -1,0 +1,23 @@
+Metodologia Ágil é uma abordagem de gestão de projetos que tem ganhado muita popularidade nos últimos anos devido à sua capacidade de adaptar-se a ambientes dinâmicos e complexos. Diferentemente das metodologias tradicionais, que tendem a ser rígidas e focadas em processos, as metodologias ágeis priorizam indivíduos e interações, entregas incrementais e contínuas, e a colaboração entre os membros da equipe. Existem várias metodologias ágeis, mas aqui vamos destacar alguns dos principais tópicos que são comuns a muitas delas:
+
+1. Iterativo e Incremental: As metodologias ágeis dividem o projeto em iterações curtas e fixas, chamadas de sprints, time-boxes ou ciclos. Cada iteração produz um incremento funcional do produto, que é revisado e ajustado ao longo do processo.
+
+2. Entrega Contínua: Ao longo das iterações, são entregues partes do produto funcional que podem ser testadas e utilizadas pelos stakeholders. Isso permite obter feedback constantemente e garante que as mudanças necessárias possam ser incorporadas ao projeto rapidamente.
+
+3. Scrum: É uma das metodologias ágeis mais populares. Utiliza sprints com duração fixa (geralmente de 2 a 4 semanas) e possui reuniões regulares, como o Daily Standup (reunião diária de alinhamento), Sprint Planning (planejamento da sprint) e Sprint Review (revisão do que foi feito na sprint).
+
+4. Kanban: É uma abordagem mais flexível, baseada em um fluxo contínuo de trabalho. As tarefas são representadas em um quadro Kanban, onde passam por diferentes estágios do processo. Essa metodologia permite maior adaptabilidade às mudanças e é útil para gerenciar fluxos de trabalho contínuos.
+
+5. Papéis na equipe: As metodologias ágeis definem papéis e responsabilidades claras na equipe. O Scrum, por exemplo, tem os papéis de Scrum Master (responsável por garantir o cumprimento do Scrum) e Product Owner (representante dos stakeholders e responsável por priorizar as funcionalidades do produto).
+
+6. Backlog: O backlog é uma lista de tarefas ou funcionalidades que precisam ser implementadas no projeto. Essas tarefas são priorizadas de acordo com o valor que agregam ao produto e são constantemente revisadas e atualizadas.
+
+7. Retrospectivas: Após cada iteração, a equipe realiza uma retrospectiva para avaliar o que funcionou bem, o que pode ser melhorado e quais ações devem ser tomadas para aprimorar o processo no futuro.
+
+8. Cliente como parte da equipe: As metodologias ágeis incentivam a participação ativa do cliente ou do usuário final durante o processo de desenvolvimento, permitindo que suas necessidades sejam incorporadas rapidamente e evitando surpresas no final do projeto.
+
+9. Adaptabilidade e Flexibilidade: As metodologias ágeis geralmente enfatizam a importância da medição do progresso do projeto por meio de métricas e gráficos visuais, tornando o processo mais transparente para todos os envolvidos.
+
+10. Mensuração e Transparência: As metodologias ágeis geralmente enfatizam a importância da medição do progresso do projeto por meio de métricas e gráficos visuais, tornando o processo mais transparente para todos os envolvidos.
+
+Em suma, as metodologias ágeis têm como objetivo central o desenvolvimento de produtos de forma mais rápida e eficiente, com foco na entrega de valor ao cliente e na adaptação constante às mudanças do ambiente. Ao incorporar esses principais tópicos em seus projetos, as equipes podem colher os benefícios da agilidade e da colaboração para obter melhores resultados.
